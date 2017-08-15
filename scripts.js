@@ -16,8 +16,12 @@ $(document).ready(function(){
         alert(i);
       }
     }
-
-
     counter(num, increment);
   });
+
+  var names = ["Frank", "Joe", "Hank", "Boa"];
+
+  for (var i = 0; i < names.length; i++) {
+    alert('Hello '+names[i]);
+  }
 });
